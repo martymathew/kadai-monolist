@@ -10,7 +10,7 @@
           </div>
           <div class="panel-body">
             <p class="item-title"><%= link_to item.name, item %></p>
-            <div class="buttons text-center"
+            <div class="buttons text-center">
             <% if logged_in? %>
                <%= render 'ownerships/have_button', item: item %>
             <% end %>
